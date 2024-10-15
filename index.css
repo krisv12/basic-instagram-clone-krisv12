@@ -1,1 +1,117 @@
 
+.instagram-logo img {
+    position: fixed;
+    top: 10px;
+    left: 200px;
+    width: 35px;
+    height: auto;
+    z-index: 1000;
+}
+
+.vertical-line {
+position: fixed;
+top: 10px;
+border-left: 1px solid black;
+height: 38px; 
+margin-left: 235px;
+z-index: 1000;
+
+}
+
+.instagram-font img{
+    position: fixed;
+    top: 10px;
+    left: 250px;
+    width: 80px;
+    height: auto;
+    z-index: 1000;
+
+}
+
+.search-bar img {
+    position: fixed;
+    top: 10px;
+    left: 450px;
+    width: 190px;
+    height: auto;
+    z-index: 1000;
+}
+
+.top-nav-bar img{
+    position: fixed;
+    top: 10px;
+    left: 700px;
+    width: 150px;
+    height: auto;
+    z-index: 1000;
+}
+
+.profile-pic img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+    display: block;
+    margin-top: 100px;
+    margin-left: 150px;   
+}
+.Vera {
+    position: absolute;
+    top: 75px;
+    left: 300px;
+    width: 150px;
+    height: auto;
+    z-index: 1000;
+
+}
+
+.edit-box {
+    position: absolute;
+    color: grey;
+    top: 90px;
+    left: 550px;
+    height: auto;
+    z-index: 1000;  
+    border-radius: 10px;
+    border: 1px solid grey; 
+    padding: 1px;
+    display: inline-block; 
+    border-radius: 1px; 
+}
+
+.full-name {
+    position: absolute;
+    color: black;
+    top: 150px;
+    left: 300px;
+    height: auto;
+    z-index: 1000;  
+}
+
+.post-number {
+    text-align: center;
+    margin-top: 1px;
+    color: black;
+    top: 200px;
+    margin-left: 100px;
+    height: auto;
+    z-index: 1000;  
+
+}
+#photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-content: flex-start; */
+    justify-content: space-evenly;
+    width: 60%;
+    margin: 10px auto;
+    row-gap: 20px;
+}
+
+
+.feed-img {
+    width: 30%;
+    justify-content: center;
+}
+
